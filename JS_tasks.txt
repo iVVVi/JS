@@ -1,0 +1,75 @@
+1. https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+
+function even_or_odd(number) {
+ if (number % 2 === 0) {
+   return 'Even';
+ }
+  return 'Odd';
+}
+
+2. https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
+
+function makeNegative(num) {
+    if ( num > 0 ) {
+        return -num;
+    }
+    else {
+        return num;
+    }
+}
+
+3. https://www.codewars.com/kata/55225023e1be1ec8bc000390/train/javascript
+
+function greet(name){
+  if(name === "Johnny")
+    return "Hello, my love!";
+  else
+    return "Hello, " + name + "!";
+}
+
+4. https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
+
+function lovefunc(flower1, flower2){
+  if(flower1 % 2 === 0 && flower2 % 2 !== 0
+    || flower1 % 2 !== 0 && flower2 % 2 === 0) {
+    return true;
+    }
+    return false;
+}
+
+5. https://www.codewars.com/kata/53369039d7ab3ac506000467/train/javascript
+
+function boolToWord( bool ){
+  if(bool !== true) {
+    return 'No';
+  }
+    return 'Yes';
+}
+
+6. https://www.codewars.com/kata/568d0dd208ee69389d000016/train/javascript
+
+function rentalCarCost(d) {
+  if(d < 3)
+    return d * 40;
+  if(7 > d && d >= 3)
+    return (d * 40 -20);
+  if(d >= 7)
+    return (d * 40 -50);
+}
+
+7. https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/javascript
+
+function basicOp(operation, value1, value2)
+{
+  if(operation === '+')
+  return value1 + value2;
+  
+  if(operation === '-')
+    return value1 - value2;
+  
+  if(operation === '*')
+    return value1 * value2;
+  
+  if(operation === '/')
+    return value1 / value2;
+}

@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-recommended": "^4.1.0",
+    "stylelint": "^13.12.0"
+  }
+}
